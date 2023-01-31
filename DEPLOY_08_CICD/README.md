@@ -15,7 +15,7 @@ sudo apt search openjdk
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/1.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/1.png width="1000" />
      </h1>
 </html> 
 
@@ -25,7 +25,7 @@ sudo apt install openjdk-11-jre-headless
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/2.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/2.png width="1000" />
      </h1>
 </html> 
 
@@ -34,7 +34,7 @@ java -version
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/3.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/3.png width="1000" />
      </h1>
 </html> 
 Java 11 must be installed on every EC2 for the Master EC2 to recognize agent EC2s. <br>
@@ -57,7 +57,7 @@ sudo apt-get install jenkins
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/4.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/4.png width="1000" />
      </h1>
 </html> 
 
@@ -70,7 +70,7 @@ sudo systemctl status jenkins
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/5.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/5.png width="1000" />
      </h1>
 </html> 
 
@@ -78,7 +78,7 @@ sudo systemctl status jenkins
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/6.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/6.png width="1000" />
      </h1>
 </html> 
 
@@ -86,7 +86,7 @@ sudo systemctl status jenkins
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/7.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/7.png width="1000" />
      </h1>
 </html> 
 After running the cat command, the line of random numbers and letters is your password to access Jenkins. Enter what was given from the terminal. <br>
@@ -95,21 +95,21 @@ After running the cat command, the line of random numbers and letters is your pa
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/8.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/8.png width="1000" />
      </h1>
 </html> 
 6. As shown on Jenkins, create a username and password that should be remembered to access Jenkins everytime on the EC2. Also put your full name and email address.
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/9.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/9.png width="1000" />
      </h1>
 </html> 
 7. The Jenkins homepage should now be accessible:
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/10.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/10.png width="1000" />
      </h1>
 </html> 
 Steps 1-7 can be repeated to install Jenkins for the ec2 that is the Jenkins agent <br>
@@ -119,48 +119,48 @@ Steps 1-7 can be repeated to install Jenkins for the ec2 that is the Jenkins age
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/11.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/11.png width="1000" />
      </h1>
 </html> 
 9. Under 'System Configuration', click 'Manage Nodes and Clouds'
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/11.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/11.png width="1000" />
      </h1>
 </html> 
 10. Click new node:
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/12.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/12.png width="1000" />
      </h1>
 </html> 
 11. Enter the following information in the required boxes:
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/16.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/16.png width="1000" />
      </h1>
 </html> 
 
 Enter your pem key down below that was used to access the EC2 agent:
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/13.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/13.png width="1000" />
      </h1>
 </html> 
 12. The results should be successful an agent is connected to the Master EC2:
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/17.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/17.png width="1000" />
      </h1>
 </html> 
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/19.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/19.png width="1000" />
      </h1>
 </html> 
 
@@ -196,7 +196,7 @@ sudo nano key.pem
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/20.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/20.png width="1000" />
      </h1>
 </html> 
 Afterwards, a blank screen should appear where the pem file contents can now be pasted into the 'key.pem' file <br> 
@@ -209,7 +209,7 @@ sudo ssh -i key.pem ubuntu@
 After the @ goes the EC2 IPv4 private address
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task1/21.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task1/21.png width="1000" />
      </h1>
 </html> 
 
@@ -224,7 +224,7 @@ Then retry connecting to an EC2 agent
 1. Place all the files to an application in one folder that is accessible from your computer
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/1.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/1.png width="1000" />
      </h1>
 </html> 
 
@@ -269,13 +269,13 @@ path/ : Folder the files will be sent to on the EC2. Once again, create a folder
 After successfully performing the scp command in a format shown below, the files from your local system should appear in the EC2:
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/6.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/6.png width="1000" />
      </h1>
 </html> 
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/2.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/2.png width="1000" />
      </h1>
 </html> 
 
@@ -289,7 +289,7 @@ sudo docker build -t ---- .
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/7.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/7.png width="1000" />
      </h1>
 </html> 
 
@@ -304,18 +304,18 @@ curl localhost:5000
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/8.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/8.png width="1000" />
      </h1>
 </html> 
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/9.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/9.png width="1000" />
      </h1>
 </html>
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/10.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/10.png width="1000" />
      </h1>
 </html> 
 
@@ -324,13 +324,13 @@ curl localhost:5000
 1. Go to 'Manage Jenkins' and install the 'Amazon EC2' and 'Maven Integration' plugins
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task3/4.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task3/4.png width="1000" />
      </h1>
 </html> 
 If there are issues downloading or using the "Maven Intregration" plugin, an alternative is to install Maven directly through the terminal
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task3/5.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task3/5.png width="1000" />
      </h1>
 </html> 
 2. Make a multi-branch pipeline in Jenkins and connect it to your Github account to access the application's source code <br>
@@ -338,21 +338,21 @@ If there are issues downloading or using the "Maven Intregration" plugin, an alt
 3. Install the following packages
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task3/6.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task3/6.png width="1000" />
      </h1>
 </html> 
 
 4. Create a file named "Jenkinsfile" in the Github repository that contains the application source code. Include the following below in the Jenkinsfile:
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task3/8.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task3/8.png width="1000" />
      </h1>
 </html> 
 
 5. In Jenkins, test the application by running the pipeline:
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task3/7.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task3/7.png width="1000" />
      </h1>
 </html> 
 
@@ -365,7 +365,7 @@ sudo docker login
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/13.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/13.png width="1000" />
      </h1>
 </html> 
 The image should be named username/image name <br>
@@ -376,20 +376,20 @@ Image name - The name that is given to the image, which can be anything <br>
 2. Push the image
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/15.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/15.png width="1000" />
      </h1>
 </html> 
 
 3. Go to the Dockerhub account that the image was pushed to and confirm if it was pushed
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/16.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/16.png width="1000" />
      </h1>
 </html> 
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task4/17.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task4/17.png width="1000" />
      </h1>
 </html> 
 
@@ -401,7 +401,7 @@ sudo apt-get-update
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/1.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/1.png width="1000" />
      </h1>
 </html> 
 
@@ -411,7 +411,7 @@ sudo apt install software-properties-common
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/2.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/2.png width="1000" />
      </h1>
 </html> 
 
@@ -421,7 +421,7 @@ sudo apt-add-repository ppa:ansible/ansible
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/3.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/3.png width="1000" />
      </h1>
 </html> 
 
@@ -432,7 +432,7 @@ sudo apt update
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/4.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/4.png width="1000" />
      </h1>
 </html> 
 
@@ -442,7 +442,7 @@ sudo apt install ansible
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/5.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/5.png width="1000" />
      </h1>
 </html> 
 
@@ -457,7 +457,7 @@ sudo apt-get install python
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/7.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/7.png width="1000" />
      </h1>
 </html> 
 
@@ -473,7 +473,7 @@ sudo apt-add-repository ppa:ansible/ansible
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/3.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/3.png width="1000" />
      </h1>
 </html> 
 
@@ -484,7 +484,7 @@ sudo apt update
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/4.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/4.png width="1000" />
      </h1>
 </html> 
 
@@ -494,7 +494,7 @@ sudo apt install ansible
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/5.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/5.png width="1000" />
      </h1>
 </html> 
 
@@ -509,7 +509,7 @@ sudo apt-get install python
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/8.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/8.png width="1000" />
      </h1>
 </html> 
 
@@ -520,7 +520,7 @@ ssh-keygen
 Run the ls command to see if 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/9.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/9.png width="1000" />
      </h1>
 </html> 
 13. Retrieve the public key from the master EC2 "cat id_rsa.pub". Copy the entire key from running the cat command <br>
@@ -528,13 +528,13 @@ Run the ls command to see if
 14. Create a new EC2 instance. After creating a new instance, enter into the ssh directory and edit the "authorized_keys" file by pasting the public key from the master EC2:
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/11.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/11.png width="1000" />
      </h1>
 </html> 
 15. In the master EC2, enter the directory '/etc/ansible' and edit the hosts file:
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/12.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/12.png width="1000" />
      </h1>
 </html> 
 16. In the hosts file, write the following:
@@ -548,7 +548,7 @@ agent1 ansible_ssh_host - Specify the agent that is desired to connect to and th
 Private IPv4 Address of EC2 - To ensure the Master can always connect to the EC2 agent <br>
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/13.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/13.png width="1000" />
      </h1>
 </html> 
 
@@ -575,7 +575,7 @@ The yaml file can be named anything as long as it contains the ".yaml" extension
 Save the changes to the yaml file and then exit after saving
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/20.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/20.png width="1000" />
      </h1>
 </html> 
 
@@ -585,14 +585,14 @@ ansible-playbook "nameofyamlfile".yaml
 ```
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/19.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/19.png width="1000" />
      </h1>
 </html> 
 20. After running the ansible-playbook command, the Master should have configure the agent to download the stress-ng package. To confirm this, run the "stress-ng" command in the agent EC2
 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/21.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/21.png width="1000" />
      </h1>
 </html> 
 
@@ -603,22 +603,22 @@ stress-ng --matrix 1 -t 1m
 1 -t 1m means one stress test is runned for one minute to assess the application undergoing a stress test for that time
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/22.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/22.png width="1000" />
      </h1>
 </html> 
 21. Go to the AWS Console to how the stress test affected the CPU Utilization Average of the EC2:
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/23.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/23.png width="1000" />
      </h1>
 </html> 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/24.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/24.png width="1000" />
      </h1>
 </html> 
 <html>
      <h1>
-        <img style="float: center;" src=/deployment8/task5/25.png width="1000" />
+        <img style="float: center;" src=/DEPLOY_08_CICD/deployment8/task5/25.png width="1000" />
      </h1>
 </html> 
