@@ -1,0 +1,1 @@
+In this pull request, I included snapshots of using an Amazon EC2 in a private subnet to access Jenkins. I also included a picture diagram and edits I contributed in orange to show which and how each Amazon AWS technologies were connected to one another.  
