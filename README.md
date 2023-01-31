@@ -1,2 +1,2 @@
 # Kura-Labs-Assignments
-This repository contains the assignments that were assigned and I completed when I was an Infrastructure Automation Fellow in Kura Labs. 
+This repository contains the assignments that I completed in Kura Labs as an Infrastructure Automation Fellow. 
